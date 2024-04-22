@@ -1,0 +1,151 @@
+body{
+    background-color: #090B0E;
+    margin: 20px;
+}
+nav>img{
+    width:140px;
+    height: 28;
+    padding-right: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav>a:hover{
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav>button{
+    flex: display;
+    align-items: center;
+    justify-content: center;
+    background-color: #090B0E;
+    color: white;
+    border: rgb(60, 60, 60) 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+nav>button:hover{
+    border: purple 1px solid;
+}
+main{
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main>h1{
+    font-size: 85px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+main>p{
+    font-size: 33px;
+    
+    color: #A1A1A1;
+    
+}
+.gre{
+    color: #6906DF;
+}
+.white{
+    color: white;
+}
+form{
+    background-color: #090B0E;
+    border-radius: 10px;
+    border: #6906DF solid 4px;
+}
+main button{
+    color: white;
+    background-color: #5B09C0;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+input{
+    background-color: #090B0E;
+   margin: 2px;
+    border: #090B0E solid 0px;
+    width: 50vw;
+    height: 60px;
+}
+.features h2{
+    color: #7326EF;
+    font-size: 30px;
+
+}
+.features p{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.features button{
+    flex: display;
+    align-items: center;
+    justify-content: center;
+    background-color: #090B0E;
+    color: white;
+    border: rgb(60, 60, 60) 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 40px;
+}
+.card{
+    width: 330px;
+    height: 230px;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #18181B;
+    
+}
+
+.features button:hover{
+    border: purple 1px solid;
+}
+#ch{
+    font-size: 24px;
+    color: white;
+}
+#cp{
+    font-size: 20px;
+    font-weight: 200;
+}
+#quote{
+    font-size: 30px;
+    text-align: center;
+    color: #979798;
+}
+#name{
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    background-color: #111316;
+    height: 60vh;
+
+}
+footer div{
+    color: white;
+}
